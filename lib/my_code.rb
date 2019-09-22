@@ -1,3 +1,3 @@
-def map(array)
+def map(source_array)
   
 end
