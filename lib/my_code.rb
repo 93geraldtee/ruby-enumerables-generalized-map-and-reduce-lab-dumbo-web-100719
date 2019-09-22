@@ -9,8 +9,13 @@ def map(source_array)
 end
 
 def reduce(source_array, starting_value = nil)
-  new_array = []
-  i = 0
+  if starting_value
+    number1 = starting_value
+    i = 0
+  else
+    number1 = source_array[0]
+    i = 1
+  end
   while i < source_array.length do
       
     i += 1
