@@ -1,7 +1,7 @@
 def map(source_array)
   new_array = []
   i = 0
-  while i < new_array.lengthdo
+  while i < source_array.length do
     
     i += 1
   end
