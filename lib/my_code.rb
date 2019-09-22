@@ -1,3 +1,3 @@
-def negative(array)
+def map(array)
   
 end
