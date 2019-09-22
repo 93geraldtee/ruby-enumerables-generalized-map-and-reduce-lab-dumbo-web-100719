@@ -21,5 +21,5 @@ def reduce(source_array, starting_value = nil)
     sum = yield(number1, source_array[i])
     i += 1
   end
-  source_array
+  sum
 end
